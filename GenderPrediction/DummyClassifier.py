@@ -19,5 +19,5 @@ y_pred = model.predict(X)
 df['gender_pred'] = y_pred
 df['gender_pred'].value_counts()
 
-df[ df.target != y_pred ].shape # błędna odpowiedź
+df[ df.target != y_pred ].shape # błędna odpowiedź 2
 accuracy_score(y, y_pred)
