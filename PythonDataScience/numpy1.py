@@ -1,4 +1,5 @@
 import numpy as np
 
 
-print(np.__version__)
+L = list(range(11))
+print(L)
